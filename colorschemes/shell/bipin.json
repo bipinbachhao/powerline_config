@@ -1,0 +1,45 @@
+{
+    "name": "bipin",
+    "groups":  {
+         "jobnum": { "fg": "white", "bg": "darkgreen" },
+         "user":  { "fg": "white", "bg": "steelblue", "attr": ["bold"] },
+         "superuser":  { "fg": "white", "bg": "red", "attr": ["bold"] },
+         "virtualenv":  { "fg": "yellow", "bg": "darkblue", "attr": ["bold"] },
+         "branch":  { "fg": "gray90", "bg": "darkred" },
+         "branch_dirty":  { "fg": "yellow", "bg": "darkred" },
+         "branch_clean":  { "fg": "yellow", "bg": "darkgreen" },
+         "continuation":  { "fg": "yellow", "bg": "darkgreen" },
+         "continuation:current":  { "fg": "white", "bg": "darkgreen", "attr": ["bold"] },
+         "cwd":  { "fg": "black", "bg": "khaki1" },
+         "cwd:current_folder":  { "fg": "white", "bg": "darkgreen", "attr": ["bold"] },
+         "cwd:divider":  { "fg": "darkestred", "bg": "khaki1" },
+         "hostname":  { "fg": "darkestblue", "bg": "brightestred", "attr": ["bold"] },
+         "exit_fail":  { "fg": "white", "bg": "red" },
+         "exit_success":  { "fg": "white", "bg": "green" },
+         "environment":  { "fg": "white", "bg": "green" },
+         "mode":  { "fg": "white", "bg": "green", "attr": ["bold"] },
+         "gitstatus":                 { "fg": "gray8",           "bg": "gray2", "attrs": [] },
+         "gitstatus_branch":          { "fg": "gray90",          "bg": "darkred", "attrs": [] },
+         "gitstatus_branch_clean":    { "fg": "green",           "bg": "gray2", "attrs": [] },
+         "gitstatus_branch_dirty":    { "fg": "gray8",           "bg": "gray2", "attrs": [] },
+         "gitstatus_branch_detached": { "fg": "mediumpurple",    "bg": "gray2", "attrs": [] },
+         "gitstatus_tag":             { "fg": "darkcyan",        "bg": "gray2", "attrs": [] },
+         "gitstatus_behind":          { "fg": "gray10",          "bg": "gray2", "attrs": [] },
+         "gitstatus_ahead":           { "fg": "gray10",          "bg": "gray2", "attrs": [] },
+         "gitstatus_staged":          { "fg": "green",           "bg": "gray2", "attrs": [] },
+         "gitstatus_unmerged":        { "fg": "brightred",       "bg": "gray2", "attrs": [] },
+         "gitstatus_changed":         { "fg": "mediumorange",    "bg": "gray2", "attrs": [] },
+         "gitstatus_untracked":       { "fg": "brightestorange", "bg": "gray2", "attrs": [] },
+         "gitstatus_stashed":         { "fg": "darkblue",        "bg": "gray2", "attrs": [] },
+         "gitstatus:divider":         { "fg": "gray8",           "bg": "gray2", "attrs": [] }
+    },
+    "mode_translations": {
+        "vicmd": {
+            "groups": {
+                "mode": { "fg": "white", "bg": "steelblue", "attr": ["bold"] }
+            }
+        }
+    }
+
+
+}
