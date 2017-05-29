@@ -68,6 +68,10 @@
 				"args": {
 					"format": "$"
 				}
+			},
+			{
+				"function": "powerline.segments.shell.last_status",
+				"priority": 10
 			}
 		]
 	}
