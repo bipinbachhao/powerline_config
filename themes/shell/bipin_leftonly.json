@@ -32,6 +32,13 @@
 			{
 				"function": "powerline.segments.shell.last_status",
 				"priority": 10
+			},
+			{	
+				"name": "user",
+				"before": "(",
+				"after": ")$ ",
+				"draw_hard_divider": true
+
 			}
 		]
 	}
